@@ -1,96 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T14:42:04 IST" name="Suite" finished-at="2024-05-19T14:42:04 IST" duration-ms="66">
+  <suite started-at="2024-06-02T20:03:58 IST" name="Default suite" finished-at="2024-06-02T20:03:58 IST" duration-ms="39">
     <groups>
-      <group name="Sanity">
-        <method signature="TEstNG1.Testcase2()[pri:10, instance:TestNgBasics.TEstNG1@206a70ef]" name="Testcase2" class="TestNgBasics.TEstNG1"/>
-        <method signature="TEstNG1.Testcase3()[pri:-1, instance:TestNgBasics.TEstNG1@206a70ef]" name="Testcase3" class="TestNgBasics.TEstNG1"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TestNG2.Testcase4()[pri:0, instance:TestNgBasics.TestNG2@43bc63a3]" name="Testcase4" class="TestNgBasics.TestNG2"/>
-        <method signature="TEstNG1.Testcase3()[pri:-1, instance:TestNgBasics.TEstNG1@206a70ef]" name="Testcase3" class="TestNgBasics.TEstNG1"/>
-        <method signature="TEstNG1.Testcase1()[pri:20, instance:TestNgBasics.TEstNG1@206a70ef]" name="Testcase1" class="TestNgBasics.TEstNG1"/>
-      </group> <!-- Regression -->
-      <group name="SIT">
-        <method signature="TEstNG1.Testcase3()[pri:-1, instance:TestNgBasics.TEstNG1@206a70ef]" name="Testcase3" class="TestNgBasics.TEstNG1"/>
-        <method signature="TEstNG1.Testcase1()[pri:20, instance:TestNgBasics.TEstNG1@206a70ef]" name="Testcase1" class="TestNgBasics.TEstNG1"/>
-      </group> <!-- SIT -->
     </groups>
-    <test started-at="2024-05-19T14:42:04 IST" name="Test" finished-at="2024-05-19T14:42:04 IST" duration-ms="66">
-      <class name="TestNgBasics.TEstNG1">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="BeforeSuite" finished-at="2024-05-19T14:42:04 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Beforeclass" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforeclass -->
-        <test-method is-config="true" signature="Bf()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Bf" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Bf -->
-        <test-method signature="Testcase2()[pri:10, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Testcase2" finished-at="2024-05-19T14:42:04 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase2 -->
-        <test-method is-config="true" signature="af()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="af" finished-at="2024-05-19T14:42:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method is-config="true" signature="Bf()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Bf" finished-at="2024-05-19T14:42:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Bf -->
-        <test-method signature="Testcase3()[pri:-1, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Testcase3" finished-at="2024-05-19T14:42:04 IST" depends-on-methods="TestNgBasics.TEstNG1.Testcase2" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase3 -->
-        <test-method is-config="true" signature="af()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="af" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method signature="Testcase1()[pri:20, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Testcase1" finished-at="2024-05-19T14:42:04 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method is-config="true" signature="Bf()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="Bf" finished-at="2024-05-19T14:42:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Bf -->
-        <test-method is-config="true" signature="af()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="af" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- af -->
-        <test-method is-config="true" signature="aclass()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="aclass" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aclass -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="AfterTest" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method is-config="true" signature="EndReport()[pri:0, instance:TestNgBasics.TEstNG1@206a70ef]" started-at="2024-05-19T14:42:04 IST" name="EndReport" finished-at="2024-05-19T14:42:05 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EndReport -->
-      </class> <!-- TestNgBasics.TEstNG1 -->
-      <class name="TestNgBasics.TestNG2">
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestNgBasics.TestNG2@43bc63a3]" started-at="2024-05-19T14:42:04 IST" name="BeforeTest" finished-at="2024-05-19T14:42:04 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest -->
-        <test-method signature="Testcase4()[pri:0, instance:TestNgBasics.TestNG2@43bc63a3]" started-at="2024-05-19T14:42:04 IST" name="Testcase4" finished-at="2024-05-19T14:42:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase4 -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestNgBasics.TestNG2@43bc63a3]" started-at="2024-05-19T14:42:05 IST" name="AfterSuite" finished-at="2024-05-19T14:42:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite -->
-      </class> <!-- TestNgBasics.TestNG2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test started-at="2024-06-02T20:03:58 IST" name="Default test" finished-at="2024-06-02T20:03:58 IST" duration-ms="39">
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
